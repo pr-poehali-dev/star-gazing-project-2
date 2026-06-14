@@ -76,7 +76,7 @@ export function HeroSection() {
       <div className="container mx-auto text-center max-w-5xl relative z-10">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6 animate-fade-in-up">
           <Sparkles className="w-4 h-4 text-primary" />
-          <span className="text-sm font-medium text-primary">Педагог — наставник — профессионал</span>
+          <span className="text-sm font-medium text-primary">Студент педагогического направления</span>
         </div>
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 animate-fade-in-up text-balance">
@@ -102,7 +102,7 @@ export function HeroSection() {
         </h1>
 
         <p className="text-xl sm:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto animate-fade-in-up animate-delay-100 leading-relaxed">
-          Педагог с многолетним опытом. Помогаю ученикам раскрыть потенциал, освоить знания и достичь результатов, которые меняют жизнь.
+          Начинающий педагог и студент. Создаю интерактивные материалы, провожу занятия и помогаю ученикам разобраться в сложных темах с удовольствием.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up animate-delay-200 mb-12">
@@ -129,15 +129,15 @@ export function HeroSection() {
         <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-muted-foreground animate-fade-in-up animate-delay-300">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            <span>500+ учеников</span>
+            <span>Педагогическое образование</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-primary animate-pulse" style={{ animationDelay: "0.5s" }} />
-            <span>95% успешных результатов</span>
+            <span>Авторские учебные материалы</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-primary animate-pulse" style={{ animationDelay: "1s" }} />
-            <span>10+ лет опыта</span>
+            <span>Современный подход к обучению</span>
           </div>
         </div>
       </div>
