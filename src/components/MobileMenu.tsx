@@ -8,9 +8,8 @@ export function MobileMenu() {
 
   const menuItems = [
     { href: "#about", label: "Обо мне" },
-    { href: "#services", label: "Направления" },
+    { href: "#pricing", label: "Навыки" },
     { href: "#portfolio", label: "Мои работы" },
-    { href: "#pricing", label: "Форматы работы" },
     { href: "#contact", label: "Контакты" },
   ]
 

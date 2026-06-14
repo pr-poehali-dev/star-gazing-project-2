@@ -21,8 +21,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Направления
+                <a href="#pricing" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Навыки
                 </a>
               </li>
               <li>
