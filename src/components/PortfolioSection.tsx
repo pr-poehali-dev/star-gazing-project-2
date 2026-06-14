@@ -4,40 +4,40 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Умный помощник по выборам",
-    category: "AI/ML и веб-разработка",
-    image: "/omgekeerdestemwijzer-banner.png",
+    title: "Тест по истории",
+    category: "Онлайн-тестирование · Банк тестов",
+    image: "/placeholder.jpg",
     description:
-      "AI-приложение для выборов. Пользователи задают вопросы о позициях партий и получают 100% фактические ответы из официальных программ с использованием RAG-технологии.",
-    url: "https://de-omgekeerde-stemwijzer.onrender.com/",
-    tags: ["Next.js", "AI/ML", "RAG", "TypeScript"],
+      "Авторский тест по истории, опубликованный на платформе «Банк тестов». Позволяет ученикам проверить знания в интерактивном формате с мгновенной обратной связью.",
+    url: "https://banktestov.ru/test/113879",
+    tags: ["История", "Тест", "Банк тестов"],
   },
   {
-    title: "Автомойка Tahsin",
-    category: "Веб-дизайн и разработка",
-    image: "/autopoetsbedrijf-tahsin-project.png",
+    title: "Тест по истории",
+    category: "Онлайн-тестирование · OnlineTestPad",
+    image: "/placeholder.jpg",
     description:
-      "Профессиональный сайт для автомойки с 20-летним опытом. Полная презентация услуг, автомойки и гаража с современным адаптивным дизайном.",
-    url: "https://www.autopoetsbedrijftahsin.nl/",
-    tags: ["React", "Next.js", "Tailwind CSS"],
+      "Интерактивный тест по истории на платформе OnlineTestPad. Удобный формат для самопроверки и контрольного тестирования учеников с автоматической проверкой ответов.",
+    url: "https://onlinetestpad.com/u6qxlegostp7o",
+    tags: ["История", "Тест", "OnlineTestPad"],
   },
   {
-    title: "Кадровое агентство CAN",
-    category: "Веб-разработка",
-    image: "/can-uitzendbureau-project.png",
+    title: "Учебная форма",
+    category: "Интерактивное задание · Яндекс Формы",
+    image: "/placeholder.jpg",
     description:
-      "Кадровое агентство с 30-летним опытом в садоводческом секторе. Сайт с обзором услуг и прямыми контактами для работодателей и соискателей.",
-    url: "https://canbv.nl/",
-    tags: ["Next.js", "React", "Tailwind CSS"],
+      "Образовательная форма, созданная в Яндекс Формах. Используется для сбора ответов учеников, проверки знаний и организации обратной связи в удобном цифровом формате.",
+    url: "https://forms.yandex.ru/u/6a2e55b184227c6a9770e49b",
+    tags: ["Яндекс Формы", "Тестирование", "Обратная связь"],
   },
   {
-    title: "Портфолио Murat Sahin",
-    category: "Портфолио-сайт",
-    image: "/murat-sahin-portfolio.png",
+    title: "Учебное задание",
+    category: "Электронный урок · 1С:Урок",
+    image: "/placeholder.jpg",
     description:
-      "Профессиональное портфолио full-stack разработчика. Демонстрация проектов, навыков и опыта с современным минималистичным дизайном и темной темой.",
-    url: "https://murat-sahin-dev.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", ".NET Core"],
+      "Авторское учебное задание на платформе 1С:Урок. Электронный образовательный материал, разработанный для интерактивной работы на уроке и самостоятельного изучения.",
+    url: "https://urok.1c.ru/share/task/e264e5dff42369e1b13ff62f31e8d26e/",
+    tags: ["1С:Урок", "Интерактив", "Задание"],
   },
 ]
 
@@ -46,9 +46,9 @@ export function PortfolioSection() {
     <section id="portfolio" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Наше портфолио</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Мои работы</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Ознакомьтесь с подборкой наших последних проектов и узнайте, как мы помогаем бизнесу расти с помощью мощных цифровых решений.
+            Авторские тесты, задания и образовательные материалы, созданные для работы с учениками в интерактивном цифровом формате.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export function PortfolioSection() {
                     className="gap-2"
                     onClick={() => window.open(project.url, "_blank")}
                   >
-                    Открыть проект <ExternalLink className="h-4 w-4" />
+                    Открыть материал <ExternalLink className="h-4 w-4" />
                   </Button>
                 </div>
               </div>
