@@ -111,8 +111,8 @@ export function HeroSection() {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-lg group shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all"
             asChild
           >
-            <a href="#contact">
-              Записаться на занятие
+            <a href="#portfolio">
+              Пройти тесты
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </a>
           </Button>
@@ -122,7 +122,7 @@ export function HeroSection() {
             className="border-2 border-primary/20 text-foreground hover:bg-primary/5 hover:border-primary font-semibold px-8 py-6 text-lg backdrop-blur-sm bg-transparent"
             asChild
           >
-            <a href="#portfolio">Достижения учеников</a>
+            <a href="#contact">Связаться со мной</a>
           </Button>
         </div>
 
